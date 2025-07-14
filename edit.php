@@ -11,3 +11,4 @@ $stmt->bind_param("sssi", $breed, $image_url, $fact, $id);
 $stmt->execute();
 echo "Cat updated successfully";
 ?>
+
